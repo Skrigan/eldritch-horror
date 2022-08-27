@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(assets/home.png);
+	;
+	background-size: cover;
+	background-position-x: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	gap: 5%;
+}
+.ancients-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 20px;
+	min-width: 40%;
+	padding: 20px;
+}
+.ancient-item {
+	background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 260px;
+    width: 200px;
+}
+
+.difficulties {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 15px;
+	width: 10%;
+}
+.difficultie {
+	/* width: 100%; */
+	text-align: center;
+	border: 2px solid rgb(116, 43, 145);
+	font-size: 20px;
+	color: rgb(116, 43, 145);
+	padding: 3px 5px;
+	cursor: pointer;
+}
+.active-item {
+	border: 2px solid red;	
+	color: red;
+}
+.cards {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	justify-content: center;
+	min-width: 40%;
+}
+.shuffle-btn:hover {
+	color: red;
+	border-color: red;
+}
+.stages {
+	display: flex;
+    flex-direction: column;
+    gap: 10px;
+	 margin-bottom: 10px;
+}
+.stage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.stageName {
+	width: 100%;
+	text-align: center;
+	color: purple;
+}
+.counter {
+	width: 24px;
+	display: flex;
+	height: 24px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+.green {
+	background-color: green;
+}
+.blue {
+	background-color: blue;
+}
+.brown {
+	background-color: brown;
+}
+.deck-roller {
+	background: url(./assets/mythicCardBackground.png);
+	background-size: cover;
+	height: 260px;
+	width: 180px;
+}
+.last-card {
+	background-size: cover;
+	height: 260px;
+	width: 180px;
+}
